@@ -1,4 +1,4 @@
-<img width="8458" height="5888" alt="overall" src="https://github.com/user-attachments/assets/d6a2420f-8de4-40ec-ada3-58028b11c83e" /># 🚀FCAIQNet
+# 🚀FCAIQNet
 The open available code for paper "FCAIQNet: Frequency-Channel Adaptive Interaction and Quad-scale Adaptive Fusion Network for Multimodal UAV Object Detection"
 <img width="8458" height="5888" alt="overall" src="https://github.com/user-attachments/assets/fed038a1-2a9a-4adc-a87c-79f293dcb4fe" />
 
