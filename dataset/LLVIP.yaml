@@ -1,14 +1,14 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 
 ## RGB images
-train: /home/fwq207/zzh/Multimodal_data/LLVIP_yolo_oringin/images/train # train images 
-val: /home/fwq207/zzh/Multimodal_data/LLVIP_yolo_oringin/images/val # val images
-test : /home/fwq207/zzh/Multimodal_data/LLVIP_yolo_oringin/images/test # test images
+train: /home/fwq207/zzh/Multimodal_data/LLVIP/images/train # train images 
+val: /home/fwq207/zzh/Multimodal_data/LLVIP/images/val # val images
+test : /home/fwq207/zzh/Multimodal_data/LLVIP/images/test # test images
 
 ## Infrared images
-train_ir: /home/fwq207/zzh/Multimodal_data/LLVIP_yolo_oringin/image/train # train images
-val_ir: /home/fwq207/zzh/Multimodal_data/LLVIP_yolo_oringin/image/val # val images
-test_ir: /home/fwq207/zzh/Multimodal_data/LLVIP_yolo_oringin/image/test # test images
+train_ir: /home/fwq207/zzh/Multimodal_data/LLVIP/image/train # train images
+val_ir: /home/fwq207/zzh/Multimodal_data/LLVIP/image/val # val images
+test_ir: /home/fwq207/zzh/Multimodal_data/LLVIP/image/test # test images
 
 
 # Classes

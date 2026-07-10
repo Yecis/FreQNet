@@ -9,19 +9,36 @@ LLVIP is a paired visible–infrared dataset for low-light pedestrian detection 
 
 OGSOD-1.0 is a SAR–optical remote-sensing object detection dataset built for optical-guided SAR detection. We use this dataset to verify whether the proposed multimodal interaction and fusion strategy can generalize from RGB–IR fusion to broader cross-modal remote-sensing detection. It contains 14,665 training pairs and 3,666 test pairs, which are resized to 512×512 for input. 
 
-﻿DroneVehicle：
+The Dataset used in our paper can be can be obtained from the following link
+
+⭐DroneVehicle:
+
+Link: https://pan.baidu.com/s/1iCMhHJxxL3XCsLeU_CJ27g Code: ssff 
+
  
-LLVIP：
+⭐LLVIP:
 
-OGSOD-1.0：
+Link: https://pan.baidu.com/s/1GQtg2bGXQEKlDFInlWPQvQ  Code: xjki 
 
-# 🔣Pretrained model
 
-DroneVehicle: FCAIQNet\runs\DroneVehicle\train\FCAIQNet\weights
+⭐OGSOD-1.0:
 
-OGSOD-1.0: FCAIQNet\runs\OGSOD\train\512\FCAIQNet\weights
+Link: https://pan.baidu.com/s/1kho0fNpxK_3PSDmS0Yb-Uw  Code: qfm3 
 
-# 🔧Requirement
+# 🔣Model
+Our FCAIQNet weights are already included in the repository and can be found at the following location
+
+🔥DroneVehicle: 
+
+```
+\FCAIQNet-main\runs\DroneVehicle\train\FCAIQNet\weights
+```
+🔥OGSOD-1.0: 
+```
+\FCAIQNet-main\runs\OGSOD\train\512\FCAIQNet\weights
+```
+# 🔧Environment
+```
 conda create -n FCAIQNet python=3.10
 
 conda activate FCAIQNet
@@ -29,8 +46,21 @@ conda activate FCAIQNet
 pip install -U pip setuptools wheel
 
 pip install -r requirements.txt
+```
 
+# 🔧Train and test
 
+⚠️Dataset path, GPU, batch size, etc., need to be modified according to different situations.
+
+Training our FCAIQNet
+```
+python train.py
+```
+
+Test our FCAIQNet
+```
+python val.py
+```
 
 
 
