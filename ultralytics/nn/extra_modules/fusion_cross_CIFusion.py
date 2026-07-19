@@ -113,7 +113,7 @@ class LearnableCoefficient(nn.Module):
         out = x * self.bias
         return out
 
-# Frequency Domain Feed-Forward Layer
+
 class FDFFN(nn.Module):
     def __init__(self, dim, ffn_expansion_factor, bias):
         super(FDFFN, self).__init__()
@@ -247,7 +247,7 @@ class FDCA(nn.Module):
 
 
 
-# Frequency Domain Feature Aggregation Module (FDFAM)
+
 class FDFTM_cross(nn.Module):
     def __init__(self, dim):
         super(FDFTM_cross, self).__init__()

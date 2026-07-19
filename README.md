@@ -26,6 +26,14 @@ Link: https://pan.baidu.com/s/1GQtg2bGXQEKlDFInlWPQvQ  Code: xjki
 
 Link: https://pan.baidu.com/s/1kho0fNpxK_3PSDmS0Yb-Uw  Code: qfm3 
 
+To evaluate whether the multimodal detector can exploit infrared information when visible observations become unreliable, we generated rain-, sandstorm-, and fog-degraded versions of the RGB images in the original DroneVehicle validation set. Rainy images were produced by reducing brightness and contrast, adding spatially varying atmospheric haze, and compositing multi-scale directional rain streaks. Sandstorm images were generated using warm atmospheric scattering, wavelength-dependent color attenuation, large-scale haze blur, and multi-scale dust particles. Foggy images were synthesized using a spatially varying atmospheric scattering model with non-uniform transmission maps, followed by mild smoothing and desaturation. 
+
+⭐Synthetic adverse-weather DroneVehicle validation set:
+
+Link: https://pan.baidu.com/s/14HYYWDrSNAmZSrsbFXqqQg Code: 9hzj 
+
+
+
 # 🔣Model
 Our AIFNet weights are already included in the repository and can be found at the following location
 
