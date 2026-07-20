@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: ultralytics/cfg/models/multimodal/AIFNet.yaml
+model: ultralytics/cfg/models/multimodal/FreQNet.yaml
 data: dataset/DroneVehicle.yaml
 epochs: 200
 time: null
@@ -13,7 +13,7 @@ cache: false
 device: null
 workers: 4
 project: runs/DroneVehicle/train
-name: AIFNet
+name: FreQNet
 exist_ok: false
 pretrained: false
 optimizer: auto
@@ -104,4 +104,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs/DroneVehicle/train/AIFNet
+save_dir: runs/DroneVehicle/train/FreQNet

@@ -1,7 +1,7 @@
-# 🚀AIFNet
-The open available code for paper "AIFNet: Adaptive Frequency-Channel Interaction and Quad-scale Fusion Network for Multimodal 
+# 🚀FreQNet
+The open available code for paper "FreQNet: Adaptive Frequency-Channel Interaction and Quad-scale Fusion Network for Multimodal 
 UAV Object Detection"
-<img width="8458" height="5888" alt="overall" src="fig\AIFNet.png" />
+<img width="8458" height="5888" alt="overall" src="fig\FreQNet.png" />
 
 # 📚Dataset
 DroneVehicle is a large-scale paired RGB–IR UAV vehicle dataset covering nighttime scenes. Its aerial images contain small, densely distributed and partially occluded vehicles under strong illumination variations, especially at night, which closely matches our RGB–IR UAV small-object fusion detection setting and is suitable for evaluating cross-modal interaction and multi-scale feature fusion. In our experiments, white image borders are removed, each RGB–IR pair is resized to 640×640, and annotations are converted to YOLO horizontal bounding boxes. The processed dataset contains 17,990 training pairs, 1,469 validation pairs.
@@ -35,22 +35,22 @@ Link: https://pan.baidu.com/s/14HYYWDrSNAmZSrsbFXqqQg Code: 9hzj
 
 
 # 🔣Model
-Our AIFNet weights are already included in the repository and can be found at the following location
+Our FreQNet weights are already included in the repository and can be found at the following location
 
 🔥DroneVehicle: 
 
 ```
-\runs\DroneVehicle\train\AIFNet\weights
+\runs\DroneVehicle\train\FreQNet\weights
 ```
 🔥OGSOD-1.0: 
 ```
-\runs\OGSOD\train\512\AIFNet\weights
+\runs\OGSOD\train\512\FreQNet\weights
 ```
 # 🔧Environment
 ```
-conda create -n AIFNet python=3.10
+conda create -n FreQNet python=3.10
 
-conda activate AIFNet
+conda activate FreQNet
 
 pip install -U pip setuptools wheel
 
@@ -61,12 +61,12 @@ pip install -r requirements.txt
 
 ⚠️Dataset path, GPU, batch size, etc., need to be modified according to different situations.
 
-Train our AIFNet
+Train our FreQNet
 ```
 python train.py
 ```
 
-Test our AIFNet
+Test our FreQNet
 ```
 python val.py
 ```
